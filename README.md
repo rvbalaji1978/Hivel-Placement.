@@ -1,0 +1,3 @@
+# Hivel Placement Assignment
+
+This project solves the polynomial reconstruction problem using the JSON test case provided in the assignment. The program reads encoded roots from the JSON file, decodes the values based on the given base, and computes the polynomial’s constant term C. The solution is implemented in Java without using Python, as per the assignment rules. BigInteger is used to handle very large numbers while decoding the Y values. Only the first k roots are used to determine the polynomial coefficients. Matrix-based Gaussian elimination is applied to solve for the constant term. The final output prints the decoded values and the computed constant C. To run the program, compile with the JSON library and execute from the terminal.
